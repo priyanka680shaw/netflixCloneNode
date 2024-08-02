@@ -54,7 +54,7 @@ function Header() {
     const logoutHandler = async () => {
         try {
             const res = await axios.get(`${API_END_POINT}/logout`)
-            //  console.log("logout" , res.data.status)
+             console.log("logout" , res.data.status)
             if (res.data.status) {
                 toast.success(res.data.message)
                 setUrl(true)
@@ -67,9 +67,7 @@ function Header() {
         catch (err) {
             console.log("logout Error", err)
         }
-        finally{
-            setIsLoading()
-        }
+     
     }
 
     //searchHandler function
