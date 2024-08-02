@@ -17,7 +17,7 @@ const envFile = dotenv.config({
 })
 //origin cross cheack
 const corsOption= {
-    origin : "http://localhost:5173",
+    origin : ["https://netflix-clone-node.vercel.app" , "http://localhost:5173"],
     credentials  : true
 }
 //console.log(envFile)

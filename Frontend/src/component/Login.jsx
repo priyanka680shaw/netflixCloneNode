@@ -33,7 +33,7 @@ function Login() {
 
         //Impliminting backend
 
-        const API_END_POINT = "http://localhost:3000/api/v1/user"
+        const API_END_POINT = "https://netflixclonenode.onrender.com/api/v1/user"
 
 
         if (register) {
