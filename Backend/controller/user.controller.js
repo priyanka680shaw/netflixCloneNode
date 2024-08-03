@@ -68,6 +68,7 @@ const userloginController = async (req, res) => {
 //LogOut
 
 const userLogoutController = (req , res)=>{
+    console.log("useLog out")
     return res.status(200).cookie("token " , " " , {expiresIn : new Date(Date.now()) , httpOnly:true}).json({
         status  :true,
         message : "Logout Successfully !"
