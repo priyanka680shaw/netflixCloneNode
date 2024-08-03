@@ -6,7 +6,7 @@ const MovieContainer = () => {
 )
   return (
     <div>
-      <div className="bg-black w-full h-auto -mt-[150px]">  
+      <div className="bg-black w-full h-auto ">  
       <div >
       <MovieList title= {"Popular Movies"} movies = {movie.nowPlayingMovie}/>
       <MovieList title= {"Now Playing Movie"} movies = {movie.popular}/>

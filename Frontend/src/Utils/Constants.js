@@ -10,7 +10,7 @@ export const options = {
   };
 
   export const NOW_PLAYING_MOVIE = "https://api.themoviedb.org/3/movie/now_playing"
-  export const popular = "https://api.themoviedb.org/3/movie/popular"
+  export const popular = "https://api.themoviedb.org/3/movie/popular"  
   export const toprated = "https://api.themoviedb.org/3/movie/top_rated"
   export const upcoming = "https://api.themoviedb.org/3/movie/upcoming"
   export const IMG_URL = "https://image.tmdb.org/t/p/w500"
