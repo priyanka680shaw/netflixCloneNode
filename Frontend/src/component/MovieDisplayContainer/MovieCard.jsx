@@ -11,14 +11,10 @@ const MovieCard = ({backdrop_path}) => {
   return (
     <>
     {
-      backdrop_path ? <> <div className='w-80 p-4 m-2 border-4 rounded ' onClick={handleOpen}>
+      backdrop_path && <> <div className='w-80 p-4 m-2 border-4 rounded ' onClick={handleOpen}>
       <img  src= {`${IMG_URL}/${backdrop_path}`} alt= 'banner-image'/>
   </div>
-      </> : <>
-      <div className='w-80 p-4 m-2 border-4 rounded '>
-            <img  src= "https://png.pngtree.com/png-vector/20190508/ourmid/pngtree-block-vector-icon-png-image_1027165.jpg" alt= 'banner-image'/>
-        </div>
-      </>
+      </> 
     }
        
     </>
