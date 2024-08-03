@@ -1,4 +1,4 @@
-export const API_END_POINT = "http://localhost:3000/api/v1/user"
+export const API_END_POINT = "https://netflixclonenode.onrender.com/api/v1/user"
 
 //api calling headers and information
 export const options = {
@@ -17,3 +17,16 @@ export const options = {
 
 
   export const searchMovie = 'https://api.themoviedb.org/3/search/movie?query=horror&include_adult=false&language=en-US&page=1';
+
+
+
+
+
+
+
+
+
+
+
+
+  
